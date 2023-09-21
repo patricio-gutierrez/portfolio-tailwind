@@ -58,25 +58,29 @@
         id="introduction"
         class="container flex flex-col mx-auto space-y-10 py-10 px-6 border-b border-b-darkerBlue"
       >
-        <h2 class="text-3xl text-darkerBlue font-bold uppercase lg:text-6xl">
+        <h2
+          class="text-3xl text-darkerBlue text-center font-bold uppercase lg:text-6xl lg:text-left"
+        >
           Introduction
         </h2>
         <!-- Introduction Container -->
         <div
-          class="flex flex-col-reverse items-center w-full space-y-6 text-2xl text-lighterBlue lg:flex-row lg:space-y-0 lg:space-x-20"
+          class="flex flex-col-reverse items-center text-lighterBlue lg:flex-row lg:space-x-20"
         >
-          <div class="text-lg text-lighterBlue md:w-1/2 md:text-xl">
+          <div
+            class="text-lg text-center space-y-5 md:w-1/2 md:text-xl md:mt-0 md:text-left"
+          >
             <h3
-              class="mt-5 text-2xl text-darkerBlue font-bold md:text-3xl lg:mt-0"
+              class="text-2xl text-darkerBlue mt-8 font-bold md:text-3xl lg:mt-0"
             >
               Hi, Welcome!
             </h3>
-            <p class="mt-3">
+            <p>
               Diego Patricio Gutierrez, 29 years old. I'm a developer with a
               strong desire to deliver high quality web apps and features, and
               also like to work with big and small teams.
             </p>
-            <p class="mt-3">
+            <p>
               Full Stack Developer with experience in JavaScript, PHP, Node.js,
               SQL and NoSql Databases. I'm a developer with a strong desire to
               deliver high quality web apps and features, and also like to work
@@ -88,7 +92,7 @@
             <img
               src="images/pg.png"
               alt=""
-              class="w-[340px] rounded-full md:block"
+              class="w-[340px] overflow-x-hidden rounded-full md:block"
             />
           </div>
         </div>
@@ -103,10 +107,61 @@
         </h2>
         <!-- Portfolio Projects -->
         <div
-          class="flex flex-col justify-between w-full space-y-6 text-2xl text-lighterBlue uppercase lg:flex-row lg:space-y-0 lg:space-x-8"
+          class="flex flex-col justify-between w-full space-y-6 text-lighterBlue lg:flex-row lg:space-y-0 lg:space-x-8"
         >
-          <div class="md:w-1/2 h-10 bg-red-700"></div>
-          <div class="md:w-1/2 h-10 bg-blue-700"></div>
+          <!-- Portfolio Container -->
+          <div class="md:w-1/2 shadow-xl rounded-md border-2 border-seaBlue">
+            <div
+              class="flex flex-col items-center justify-between w-full p-3 space-y-3"
+            >
+              <h3 class="text-2xl text-center font-bold uppercase">
+                MoneyGiver
+              </h3>
+              <img src="images/mg.png" alt="" class="w-full" />
+              <p>Html, Css, Js, ReactJs, Flutter, MySQL, AWS</p>
+              <a
+                href="https://www.moneygiver.com.mx/"
+                target="_blank"
+                class="px-5 py-2 font-bold text-white text-center bg-darkerBlue rounded-full hover:opacity-70"
+                >Go to website</a
+              >
+            </div>
+          </div>
+          <div class="md:w-1/2 shadow-xl rounded-md border-2 border-seaBlue">
+            <div
+              class="flex flex-col items-center justify-between w-full p-3 space-y-3"
+            >
+              <h3 class="text-2xl text-center font-bold uppercase">Spot2</h3>
+              <img src="images/spot.png" alt="" class="w-full" />
+              <p>Html, Css, Js, PHP, Laravel, MySQL, AWS</p>
+              <a
+                href="https://spot2.mx/"
+                target="_blank"
+                class="px-5 py-2 font-bold text-white text-center bg-darkerBlue rounded-full hover:opacity-70"
+                >Go to website</a
+              >
+            </div>
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-between w-full space-y-6 text-lighterBlue lg:flex-row lg:space-y-0 lg:space-x-8"
+        >
+          <!-- Portfolio Container -->
+          <div class="md:w-1/2 shadow-xl rounded-md border-2 border-seaBlue">
+            <div
+              class="flex flex-col items-center justify-between w-full p-3 space-y-3"
+            >
+              <h3 class="text-2xl text-center font-bold uppercase">Nisdao</h3>
+              <img src="images/nisdao.png" alt="" class="w-full" />
+              <p>Wordpress, PHP</p>
+              <a
+                href="https://www.nisdao.com/"
+                target="_blank"
+                class="px-5 py-2 font-bold text-white text-center bg-darkerBlue rounded-full hover:opacity-70"
+                >Go to website</a
+              >
+            </div>
+          </div>
         </div>
       </section>
     </main>
